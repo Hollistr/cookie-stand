@@ -2,7 +2,7 @@
 
 let hoursOpen = ['6:00am', '7:00am', '8:00am', '9:00am', '10:00am', '11:00am', '12:00pm', '1:00pm', '2:00pm', '3:00pm', '4:00pm', '5:00pm', '6:00pm', '7:00pm'];
 
-Seattle = {
+let Seattle = {
   name: 'seattle',
   min: 23,
   max: 65,
@@ -111,7 +111,7 @@ Seattle = {
   },
 };
 
-Tokyo = {
+let Tokyo = {
   min: 3,
   max: 24,
   avg: 1.2,
@@ -196,7 +196,7 @@ Tokyo = {
   },
 };
 
-Dubai = {
+let Dubai = {
   min: 11,
   max: 38,
   avg: 3.7,
@@ -281,7 +281,7 @@ Dubai = {
   },
 };
 
-Paris = {
+let Paris = {
   min: 20,
   max: 38,
   avg: 2.3,
@@ -366,7 +366,7 @@ Paris = {
   },
 };
 
-Lima = {
+let Lima = {
   min: 2,
   max: 16,
   avg: 4.6,
