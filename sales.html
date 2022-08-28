@@ -1,25 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title> Sales: Salmon Cookies</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-    <h1>Sales: Chris' Salmon Cookies</h1>
-    <a href="index.html">Homepage!</a>
-    <table id="sales-table"></table>
-    <main>
-        <section>
 
-        </section>
-    </main>
-    <script src="app.js"></script>
-    <footer>
-        &#169; 2002 Chris Hollis
-    </footer>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sales Data - Salmon Cookies</title>
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,300&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  
+  <nav>
+    <ul>
+      <li class='start'><a href="index.html">Home</a></li>
+      <li class='right end'><a href="contact.html">Contact Us</a></li>
+      <li class='right'><a href="sales.html">Sales Data</a></li>
+    </ul>
+  </nav>
+  
+  <img class='salmon' src="./images/salmon.png" alt="salmon">
+  <h3>Welcome to your Internal Sales Data!</h3>
+
+  <div class='about'>
+    <p>The table below represents the random calculated cookies sold per hour during the hours of 6am to 7pm at each store location</p>
+  </div>
+
+    <form id='addLocation'>
+      <fieldset>
+        <legend>Add a New City and City Data</legend>
+        
+        <div class='formDiv'>
+          <label for='cityName'>City Name: </label>
+          <input type='text' name='cityName' required>
+
+          <label for='min'>Minimum Customers Per Hour: </label>
+          <input type="text" name='min' required>
+        </div>
+        
+        <div class='formDiv'>
+          <label for='max'>Maximum Customers Per Hour: </label>
+          <input type='text' name='max' required>
+  
+          <label for='avgCookies'>Average Cookies Sold per Customer: </label>
+          <input type='text' name='avgCookies' required>
+        </div>
+
+        <input id='button' type="submit" value="Add to Table below!">
+      </fieldset>
+    </form>
+  
+  <table id='cookieData'></table>
+
+  <article>
+    <img id='shirt' src="./images/shirt.jpg" alt="tshirt">
+    <section>
+      <p>Besides our super awesome cookies, we are also selling T-shirts! Be sure to order a box to display for sale in your store for those who want some Salmon Cookie swag!</p>
+      <img id='chinook' src="./images/chinook.jpg" alt="fish2">
+    </section>
+  </article>
+
+  <footer>
+    <div id='info'>
+      <p><strong class='strong'>HQ Location:</strong> 1234 Beachfront Drive, Seatle, WA 98745 <img id='cutter' src="./images/cutter.jpeg" alt="cutter"> </p>
+      <p><strong class='strong'>Hours of Operation: </strong> 6:00 AM to 8:00 PM</p>
+      &#169; 2022 Chris Hollis
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
 </body>
 </html>
 
