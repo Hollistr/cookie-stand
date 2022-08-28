@@ -1,19 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sales Data - Salmon Cookies</title>
-
-  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="reset.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,300&display=swap" rel="stylesheet">  
-  <link rel="stylesheet" href="css/style.css">
-
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  
   <nav>
     <ul>
       <li class='start'><a href="index.html">Home</a></li>
@@ -21,18 +16,14 @@
       <li class='right'><a href="sales.html">Sales Data</a></li>
     </ul>
   </nav>
-  
-  <img class='salmon' src="./images/salmon.png" alt="salmon">
-  <h3>Welcome to your Internal Sales Data!</h3>
-
+    <img class='salmon' src="./images/salmon.png" alt="salmon">
+    <h3>Welcome to your Internal Sales Data!</h3>
   <div class='about'>
     <p>The table below represents the random calculated cookies sold per hour during the hours of 6am to 7pm at each store location</p>
   </div>
-
     <form id='addLocation'>
       <fieldset>
         <legend>Add a New City and City Data</legend>
-        
         <div class='formDiv'>
           <label for='cityName'>City Name: </label>
           <input type='text' name='cityName' required>
@@ -48,13 +39,10 @@
           <label for='avgCookies'>Average Cookies Sold per Customer: </label>
           <input type='text' name='avgCookies' required>
         </div>
-
         <input id='button' type="submit" value="Add to Table below!">
       </fieldset>
     </form>
-  
   <table id='cookieData'></table>
-
   <article>
     <img id='shirt' src="./images/shirt.jpg" alt="tshirt">
     <section>
@@ -62,7 +50,6 @@
       <img id='chinook' src="./images/chinook.jpg" alt="fish2">
     </section>
   </article>
-
   <footer>
     <div id='info'>
       <p><strong class='strong'>HQ Location:</strong> 1234 Beachfront Drive, Seatle, WA 98745 <img id='cutter' src="./images/cutter.jpeg" alt="cutter"> </p>
@@ -70,8 +57,6 @@
       &#169; 2022 Chris Hollis
     </div>
   </footer>
-
-  <script src="js/app.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
-

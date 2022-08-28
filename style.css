@@ -1,0 +1,323 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  background-color: salmon;
+}
+
+html nav {
+  overflow: hidden;
+}
+
+html nav, a {
+  background-color: teal;
+  color: black;
+  width: auto;
+  height: 90px;
+  overflow: hidden;
+}
+
+nav > ul > li {
+  line-height: 90px;
+}
+
+html nav a {
+  background-color: teal;
+  color: rgb(249, 209, 205);
+  width: auto;
+  height: 90px;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: center;
+  /* padding: 20px 30px 10px 30px; */
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+html nav a:hover {
+  background-color: teal;
+  color: rgb(33, 30, 30);
+}
+
+.about > p {
+  font-size: 1.3rem;
+}
+
+.right {
+  float: right;
+}
+
+.end {
+  margin-right: 50px;
+}
+
+.start {
+  margin-left: 50px;
+}
+
+html h1 {
+  font-weight: 900;
+  font-size: 6rem;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding: 40px;
+}
+
+html h3 {
+  font-weight: 900;
+  font-size: 3rem;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding: 40px;
+}
+
+text {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(33, 30, 30);
+}
+
+data {
+  font-family: Arial, Helvetica, sans-serif;
+  color: salmon;
+}
+
+#logo {
+  width: 50px;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
+.salmon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 50%;
+}
+
+#family {
+  width: 700px;
+  margin-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#fourFish {
+  width: 400px;
+  float: left;
+  margin-top: 0;
+}
+
+#cutter {
+  width: 30px;
+  padding: 5px 5px;
+  margin-bottom: -12px;
+}
+
+#chinook {
+  width: 250px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+div {
+  background-color: teal;
+  width: 30%;
+}
+
+.about {
+  width: 50%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table, td, th {
+  background-color: seashell;
+  border: solid black 1px;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+#cookieData {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+#info {
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: slamon;
+  width: 800px;
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+#info p {
+  display: inline;
+}
+
+.strong {
+  font-weight: 600;
+}
+
+#contact {
+  width: 50%;
+  padding: 30px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: salmon;
+  overflow: hidden;
+}
+
+#contact input {
+  margin-bottom: 15px;
+  height: 20px;
+  width: 250px;
+}
+
+#contact label {
+  display: block;
+  margin-top: 3px;
+  padding-right: 5px;
+  padding-left: 10px;
+  height: 20px;
+  float: left;
+}
+
+#contact .topalign {
+  display: block;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  width: auto;
+ 
+}
+
+#contact #message {
+  margin-left: 30px;
+  display: block;
+  float: left;
+}
+
+#addresses {
+  width: 675px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+
+#addresses h4 {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+#addresses p {
+  padding-bottom: 10px;
+  font-style: italic;
+}
+
+#addresses > ul > li {
+  padding: 10px;
+}
+
+article {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1300px;
+  overflow: hidden;
+}
+
+article > img, section {
+  width: 50%;
+  float: left;
+}
+
+article > #shirt {
+  width: 400px;
+  margin-right: 60px;
+  margin-top: 0;
+}
+
+article > section > p {
+  font-size: 1.75rem;
+  padding-top: 70px;
+  vertical-align: middle;
+}
+
+.specialA {
+  background-color: salmon;
+}
+
+footer > p {
+  width: 400px;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center
+}
+
+#addLocation {
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+fieldset {
+  border: solid 1px black;
+  padding: 15px;
+}
+
+fieldset legend {
+  font-weight: bold;
+}
+
+.formDiv {
+  width: 50%;
+  float: left;
+  background-color: salmon;
+}
+
+.formDiv label {
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.formDiv input {
+  height: 25px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+#button {
+  background-color: seashell;
+  border: dashed 1px teal;
+  padding: 10px;
+  position: relative;
+  float: right;
+  font-size: 1.3rem;
+}
+
+#button:hover {
+  background-color: teal;
+}
+
+th {
+  font-weight: bold;
+}
+
+td {
+  text-align: center;
+}
